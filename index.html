@@ -4,9 +4,21 @@
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
   </head>
   <body>
+    <div ng-controller="StoreController as store">
+        
+      <h1> {{store.product.name}} 
+        <em class="pull-right"> ${{store.product.price}} </em>
+      </h1>
+      
+      <p> {{store.product.description}} </p>
+
+
+    </div>
+
+
+
+
     <script type="text/javascript" src="angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
-    <h1>Ello Orld</h1>
-    <h2>5 + 5 = {{5+5}}</h2>
   </body>
 </html>
