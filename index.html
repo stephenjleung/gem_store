@@ -9,6 +9,7 @@
         <h1> {{product.name}}
           <em class="pull-right"> {{product.price | currency}} </em>
         </h1>
+        <img ng-src="{{product.images[0].full}}"
         <p> {{product.description}} </p>
         <button ng-show="product.canPurchase"> Add to Cart </button>
       </li>
