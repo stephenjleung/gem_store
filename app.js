@@ -8,13 +8,6 @@
 
   var gems = [
   {
-    name: '1 Mythril',
-    price: 0.25,
-    description: 'One Mythril',
-    canPurchase: true,
-    soldOut: false
-  },
-  {
     name: '5 Mythril',
     price: 1.00,
     description: 'Five Mythril',
@@ -25,6 +18,20 @@
     name: '15 Mythril',
     price: 2.50,
     description: 'Fifteen Mythril',
+    canPurchase: true,
+    soldOut: false
+  },
+  {
+    name: '25 Mythril',
+    price: 3.50,
+    description: 'Twenty Five Mythril',
+    canPurchase: true,
+    soldOut: false
+  },
+  {
+    name: '50 Mythril',
+    price: 6.00,
+    description: 'Fifty Mythril',
     canPurchase: true,
     soldOut: false
   }
