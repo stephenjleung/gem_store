@@ -9,7 +9,12 @@
         <h1> {{product.name}}
           <em class="pull-right"> {{product.price | currency}} </em>
         </h1>
-        <img ng-src="{{product.images[0].full}}"
+        <div class="gallery" ng-show="product.images.length">
+          <img class= "img img-circle img-thumbnail center-block" ng-src="{{product.images[0].full}}" />
+          <ul class="clearfix">
+            <li class="small-image pull-left thumbnail" ng-repeat="i in getNumber(product.mythrilCount) track by $index"><img ng-src="{{product.images[0].thumb}}" /></li>            
+          </ul>
+        </div>
         <p> {{product.description}} </p>
         <button ng-show="product.canPurchase"> Add to Cart </button>
       </li>
