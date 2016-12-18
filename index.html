@@ -3,15 +3,16 @@
   <head>
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
   </head>
-  <body ng-controller="StoreController as store" ng-style="{'padding': '0px 50px 0px 50px'}">
-    <div ng-repeat="product in store.products" ng-hide="product.soldOut" >      
-      <h1> {{product.name}} 
-        <em class="pull-right"> ${{product.price}} </em>
-      </h1>
-      <p> {{product.description}} </p>
-      <button ng-show="product.canPurchase"> Add to Cart </button>
-      <hr />
-    </div>
+  <body ng-controller="StoreController as store" ng-style="{}">
+    <ul class="list-group">
+      <li class="list-group-item" ng-repeat="product in store.products" ng-hide="product.soldOut" >
+        <h1> {{product.name}}
+          <em class="pull-right"> {{product.price | currency}} </em>
+        </h1>
+        <p> {{product.description}} </p>
+        <button ng-show="product.canPurchase"> Add to Cart </button>
+      </li>
+    </ul>
 
     <script type="text/javascript" src="angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
