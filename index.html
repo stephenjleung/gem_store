@@ -9,13 +9,13 @@
         <h1> {{product.name}}
           <em class="pull-right"> {{product.price | currency}} </em>
         </h1>
-        <div class="gallery" ng-show="product.images.length">
-          <img class= "img img-circle img-thumbnail center-block" ng-src="{{product.images[0].full}}" />
+
+        <div class="gallery" ng-show="product.images.length" ng-controller="GalleryController as gallery">
+          <img class= "img img-circle img-thumbnail center-block" ng-src="{{product.images[gallery.current].full}}" />
           <ul class="clearfix">
-            <li class="small-image pull-left thumbnail" ng-repeat="i in getNumber(product.mythrilCount) track by $index"><img ng-src="{{product.images[0].thumb}}" /></li>            
+            <li class="small-image pull-left thumbnail" ng-repeat="i in getNumber(product.mythrilCount) track by $index"><img ng-src="{{product.images[gallery.current].thumb}}" /></li>
           </ul>
         </div>
-
 
         <section ng-controller="PanelController as panel">
           <ul class="nav nav-pills">

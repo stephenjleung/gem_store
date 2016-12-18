@@ -12,6 +12,13 @@
     this.products = gems;
   });
 
+  app.controller('GalleryController', function(){
+    this.current = 0;
+    this.setCurrent = function(newCurrent) {
+      this.current = newCurrent || 0;
+    };
+  });
+
   app.controller('PanelController', function(){
     this.tab = 1;
     this.selectTab = function(setTab) {
