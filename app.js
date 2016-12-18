@@ -4,6 +4,7 @@
 
   app.controller('StoreController', function($scope){
 
+    // Build an array of size num for ng-repeat use
     $scope.getNumber = function(num) {
       return new Array(num);
     }
