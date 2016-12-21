@@ -94,7 +94,10 @@
     price: 10.00,
     description: 'One Hundred Mythril',
     images: [
-      
+      {
+        full:'img/1mythril-full.png',
+        thumb: 'img/1mythril-thumb.png'
+      }
     ],
     canPurchase: true,
     soldOut: false
@@ -104,4 +107,3 @@
   ];
 
 })();
-
