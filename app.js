@@ -43,6 +43,18 @@
         thumb: 'img/1mythril-thumb.png'
       }
     ],
+    reviews: [
+      {
+        stars: 5,
+        body: "I can't get enough of them Mythrils!",
+        author: "mythrillover@gmail.com"
+      },
+      {
+        stars: 1,
+        body: "Stupid RNG. Nothing but garbage.",
+        author: "saltydude@yahoo.com"
+      }
+    ],
     canPurchase: true,
     soldOut: false    
   },
@@ -55,6 +67,18 @@
       {
         full:'img/1mythril-full.png',
         thumb: 'img/1mythril-thumb.png'
+      }
+    ],
+    reviews: [
+      {
+        stars: 5,
+        body: "I can't get enough of them Mythrils!",
+        author: "mythrillover@gmail.com"
+      },
+      {
+        stars: 1,
+        body: "Stupid RNG. Nothing but garbage.",
+        author: "saltydude@yahoo.com"
       }
     ],
     canPurchase: true,
@@ -71,6 +95,18 @@
         thumb: 'img/1mythril-thumb.png'
       }
     ],
+    reviews: [
+      {
+        stars: 5,
+        body: "I can't get enough of them Mythrils!",
+        author: "mythrillover@gmail.com"
+      },
+      {
+        stars: 1,
+        body: "Stupid RNG. Nothing but garbage.",
+        author: "saltydude@yahoo.com"
+      }
+    ],
     canPurchase: true,
     soldOut: false    
   },
@@ -85,6 +121,18 @@
         thumb: 'img/1mythril-thumb.png'
       }
     ],
+    reviews: [
+      {
+        stars: 5,
+        body: "I can't get enough of them Mythrils!",
+        author: "mythrillover@gmail.com"
+      },
+      {
+        stars: 1,
+        body: "Stupid RNG. Nothing but garbage.",
+        author: "saltydude@yahoo.com"
+      }
+    ],
     canPurchase: true,
     soldOut: false    
   },
@@ -97,6 +145,18 @@
       {
         full:'img/1mythril-full.png',
         thumb: 'img/1mythril-thumb.png'
+      }
+    ],
+    reviews: [
+      {
+        stars: 5,
+        body: "I can't get enough of them Mythrils!",
+        author: "mythrillover@gmail.com"
+      },
+      {
+        stars: 1,
+        body: "Stupid RNG. Nothing but garbage.",
+        author: "saltydude@yahoo.com"
       }
     ],
     canPurchase: true,
